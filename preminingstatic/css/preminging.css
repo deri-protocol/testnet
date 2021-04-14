@@ -1,0 +1,119 @@
+#liquidity {
+  font-family: 'ArialMT' !important;
+}
+#liquidity .deri_box {
+  width: 1041px;
+  height: 95px;
+  margin-top: 30px;
+}
+#liquidity .deri_box .deri_title img {
+  margin-top: -3px;
+}
+#liquidity .deri_box .deri_title .lhr {
+  width: 1px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 1px;
+  display: inline-block;
+}
+#liquidity .deri_box .deri_title .deri_to_mine,
+#liquidity .deri_box .deri_title .deri_apy,
+#liquidity .deri_box .deri_title .deri_risk {
+  width: 340px;
+  height: 95px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  color: #999999;
+}
+#liquidity .deri_box .deri_title .deri_to_mine .risk_hover_title,
+#liquidity .deri_box .deri_title .deri_apy .risk_hover_title,
+#liquidity .deri_box .deri_title .deri_risk .risk_hover_title,
+#liquidity .deri_box .deri_title .deri_to_mine .apy_hover_title,
+#liquidity .deri_box .deri_title .deri_apy .apy_hover_title,
+#liquidity .deri_box .deri_title .deri_risk .apy_hover_title,
+#liquidity .deri_box .deri_title .deri_to_mine .mine_hover_title,
+#liquidity .deri_box .deri_title .deri_apy .mine_hover_title,
+#liquidity .deri_box .deri_title .deri_risk .mine_hover_title {
+  position: absolute;
+  display: none;
+  width: 340px;
+  top: 100px;
+  background-color: #141924;
+  border-radius: 3px;
+}
+#liquidity .deri_box .deri_title .deri_to_mine .mine_num,
+#liquidity .deri_box .deri_title .deri_apy .mine_num,
+#liquidity .deri_box .deri_title .deri_risk .mine_num,
+#liquidity .deri_box .deri_title .deri_to_mine .apy_num,
+#liquidity .deri_box .deri_title .deri_apy .apy_num,
+#liquidity .deri_box .deri_title .deri_risk .apy_num,
+#liquidity .deri_box .deri_title .deri_to_mine .risk_num,
+#liquidity .deri_box .deri_title .deri_apy .risk_num,
+#liquidity .deri_box .deri_title .deri_risk .risk_num {
+  height: 44px;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: Arial-BoldMT, Arial;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 45px;
+  background: linear-gradient(180deg, #EEEEEE 0%, #D8D8D8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#liquidity .deri_box .deri_title .deri_to_mine:hover .mine_hover_title {
+  display: block;
+}
+#liquidity .deri_box .deri_title .deri_apy:hover .apy_hover_title {
+  display: block;
+}
+#liquidity .deri_box .deri_title .deri_risk:hover .risk_hover_title {
+  display: block;
+}
+#liquidity .deri_box .hr {
+  width: 1041px;
+  height: 1px;
+  background-color: #252B35;
+}
+#liquidity .faq {
+  clear: both;
+  padding-bottom: 20px;
+}
+#liquidity .faq .card_box {
+  width: 1040px;
+  font-size: 20px;
+  background: #141924;
+  border-radius: 2px;
+  margin-top: 10px;
+  transition: height 1s;
+}
+#liquidity .faq .card_box .box_title {
+  display: flex;
+  height: 80px;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+#liquidity .faq .card_box .box_title .img_up {
+  display: none;
+}
+#liquidity .faq .card_box .box_title .img_down {
+  display: block;
+}
+#liquidity .faq .card_box .wp_context {
+  background-color: #141924;
+  overflow: hidden;
+  height: 0px;
+  width: 989px;
+  margin: 0 auto;
+  font-size: 16px;
+  display: none;
+  box-sizing: border-box;
+}
+#liquidity .faq .card_box:hover {
+  background-color: #151B25;
+  cursor: pointer;
+}

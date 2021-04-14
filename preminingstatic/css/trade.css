@@ -1,0 +1,112 @@
+.br10-rem {
+    border-radius: 10rem;
+}
+
+.h-full {
+    height: 100%
+}
+
+
+
+/*媒体查询*/
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1200px) {
+    #toggle-button {
+        display: none;
+    }
+}
+
+/*!*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*!*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #old-side {
+        display: none !important;
+    }
+
+    #toggle-button {
+        display: none;
+    }
+
+    .old {
+        display: none;
+    }
+}
+
+/*!*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*!*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #old-side {
+        display: none !important;
+    }
+
+    .old {
+        display: none;
+    }
+
+}
+
+/*!*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*!*/
+@media (min-width: 480px) and (max-width: 767px) {
+    #old-side {
+        display: none !important;
+    }
+
+    .old {
+        display: none;
+    }
+
+    .table thead th:last-child, .table tbody tr td:last-child {
+        display: none;
+    }
+
+}
+
+/*!*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*!*/
+@media (max-width: 479px) {
+    #old-side {
+        display: none !important;
+    }
+
+    .old {
+        display: none;
+    }
+
+    .filter {
+        text-align: left !important;
+    }
+
+    .table thead th:nth-child(1), .table thead th:last-child, .table tbody tr th, .table tbody tr td:last-child {
+        display: none;
+    }
+}
+
+.fcw {
+    color: white;
+}
+
+.fcb {
+    color: black;
+}
+
+.tabs a {
+    color: white;
+    text-decoration: none !important;
+}
+
+.tabs a:hover {
+    color: white;
+}
+
+.tabs li {
+
+}
+
+.position p {
+    margin-bottom: .2rem;
+}
+
+.pool-params p {
+    margin-bottom: .2rem;
+}
+
+.card-bg {
+    background-color: #282932;
+}
