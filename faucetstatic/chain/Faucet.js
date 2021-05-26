@@ -27,11 +27,12 @@ $(function () {
     async function load() {
         await contract._bindEvent()
     }
+    $('#obtainBE').on('click', addBE);
+    $('#obtainBUV').on('click', addBUV2);
     $('#obtainU').on('click', addU);
     $('#obtainB').on('click', addB);
     $('#obtainH').on('click', addH);
-    $('#obtainBE').on('click', addBE);
-    $('#obtainBUV2').on('click', addBUV2);
+   
     
     function addU() {
         let btn = $('#obtainU')
@@ -125,7 +126,7 @@ $(function () {
         }
     }
     function addBUV2(){
-        let btn = $('#obtainBUV2')
+        let btn = $('#obtainBUV')
         disableButton(btn)
         let id = 3;
         if (address) {
