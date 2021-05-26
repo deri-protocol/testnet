@@ -15,15 +15,19 @@
 
     <link rel="stylesheet" href="./preminingstatic/css/sidebar.css">
     <style>
-        #obtainU,#obtainD,#obtainB,#obtainBn,#obtainH{
-            background-image: linear-gradient(
-                90deg,
-                #09d3af 0%,
-                #09b8c2 18%,
-                #0965ff 100%
-            );
+        #obtainU,
+        #obtainD,
+        #obtainB,
+        #obtainBn,
+        #obtainH,
+        #obtainBE,
+        #obtainBUV2 {
+            background-image: linear-gradient(90deg,
+                    #09d3af 0%,
+                    #09b8c2 18%,
+                    #0965ff 100%);
             border-radius: 24px;
-            width: 13.75rem;
+            width: 15.75rem;
             outline: none;
             height: 3rem;
             border: 0;
@@ -34,18 +38,18 @@
 <body class=" bg-main">
     <nav class="navbar sticky-top navbar-expand-md navbar-dark sidebar-bg bb1 navbar-offcanvas">
         <div class="container-fluid">
-            
+
             <div>
-                <a href="https://ropsten.deri.finance">
+                <a href="https://deri.finance">
                     <img src="./preminingstatic/images/logo2.png" style="width: 85px;">
                 </a>
             </div>
-            <div>
+            <!-- <div>
                 <button type="button" class="btn btn-primary br10-rem" id="connect-wallet">Connect wallet</button>
                 <span class="id" style="color: white;"></span>
                 <br>
                 <span id="wrong" style="color: red;"></span> 
-            </div>
+            </div> -->
             <div class="navbar-collapse ml-auto collapse show" id="navbar-mobile">
             </div>
         </div>
@@ -58,34 +62,33 @@
                 </div>
                 <div class="w-100 text-center mt-2 mb-2">
                     <button type="button" id='obtainU'>
-                        <span
-                          class="spinner spinner-border spinner-border-sm"
-                          role="status"
-                          aria-hidden="true"
-                          style="display: none"
-                        ></span>
-                        Obtain USDT(Ropsten) </button>
-                        <br>
-                        <br>
+                        <span class="spinner spinner-border spinner-border-sm" role="status" aria-hidden="true"
+                            style="display: none"></span>
+                        Obtain USDT(Ropsten-V1) </button>
+                    <br>
+                    <br>
                     <button type="button" id='obtainB'>
-                        <span
-                          class="spinner spinner-border spinner-border-sm"
-                          role="status"
-                          aria-hidden="true"
-                          style="display: none"
-                        ></span>
-                        Obtain BUSD(BSC-Testnet)</button>
-                        <br>
-                        <br>
-                    
+                        <span class="spinner spinner-border spinner-border-sm" role="status" aria-hidden="true"
+                            style="display: none"></span>
+                        Obtain BUSD(BSC-Testnet-V1)</button>
+                    <br>
+                    <br>
                     <button type="button" id='obtainH'>
-                        <span
-                          class="spinner spinner-border spinner-border-sm"
-                          role="status"
-                          aria-hidden="true"
-                          style="display: none"
-                        ></span>
-                        Obtain HUSD(HECO-Testnet)</button>
+                        <span class="spinner spinner-border spinner-border-sm" role="status" aria-hidden="true"
+                            style="display: none"></span>
+                        Obtain HUSD(HECO-Testnet-V1)</button>
+                    <br>
+                    <br>
+                    <button type="button" id='obtainBE'>
+                        <span class="spinner spinner-border spinner-border-sm" role="status" aria-hidden="true"
+                            style="display: none"></span>
+                        Obtain BETH(BSC-Testnet-V2)</button>
+                    <br>
+                    <br>
+                    <button type="button" id='obtainBUV2'>
+                        <span class="spinner spinner-border spinner-border-sm" role="status" aria-hidden="true"
+                            style="display: none"></span>
+                        Obtain BUSD(BSC-Testnet-V2)</button>
                 </div>
                 <div style="text-align: center;margin-top: 100px;color: white;">
                     Go to the link below if you need Ropsten ETH:

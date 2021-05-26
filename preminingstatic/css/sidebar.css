@@ -289,7 +289,7 @@ body > .navbar-collapse .navbar-top li a:hover, body > .navbar-collapse .navbar-
 }
 
 .bg-main {
-    background-color:rgb(20,25,36) !important;
+    background-color:#1b1c22 !important;
 }
 
 .sidebar-bg {
@@ -314,5 +314,5 @@ tbody tr:last-child {
 }
 
 .sidebar-bg {
-    background-color: #282932 !important;
+    background-color: #0D0E0F !important;
 }

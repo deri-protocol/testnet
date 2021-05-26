@@ -30,6 +30,9 @@ $(function () {
     $('#obtainU').on('click', addU);
     $('#obtainB').on('click', addB);
     $('#obtainH').on('click', addH);
+    $('#obtainBE').on('click', addBE);
+    $('#obtainBUV2').on('click', addBUV2);
+    
     function addU() {
         let btn = $('#obtainU')
         disableButton(btn)
@@ -99,6 +102,48 @@ $(function () {
             });
         }
 
+    }
+    function addBE(){
+        let btn = $('#obtainBE')
+        disableButton(btn)
+        let id = 4;
+        if (address) {
+            contract.initialize(id).then(() => {
+                contract.mint(address, 10).then(res => {
+                    console.log(res)
+                    if (!res.success) {
+                        enableButton(btn)
+                        return;
+                    }
+                    enableButton(btn)
+                    alert('You  get 10 BETH')
+                }).catch(err => {
+                    enableButton(btn)
+                    console.log(err)
+                })
+            });
+        }
+    }
+    function addBUV2(){
+        let btn = $('#obtainBUV2')
+        disableButton(btn)
+        let id = 3;
+        if (address) {
+            contract.initialize(id).then(() => {
+                contract.mint(address, 10000).then(res => {
+                    console.log(res)
+                    if (!res.success) {
+                        enableButton(btn)
+                        return;
+                    }
+                    enableButton(btn)
+                    alert('You  get 10000 BUSD')
+                }).catch(err => {
+                    enableButton(btn)
+                    console.log(err)
+                })
+            });
+        }
     }
 
 })

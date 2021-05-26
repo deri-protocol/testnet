@@ -96,16 +96,15 @@ class Chain {
             return {success: false, error: 'Cannot connect wallet'};
         }
     }
-
     async initialize(index=0) {
         
         await this._initializeContracts(index);
-        await this._initializeParameters();
+        // await this._initializeParameters();
         await Promise.all([
-            this._updateBalance(),
-            this._updatePosition(),
-            this._updateStates(),
-            this._updateOracle(),
+            // this._updateBalance(),
+            // this._updatePosition(),
+            // this._updateStates(),
+            // this._updateOracle(),
             this._bindEvent()
         ]);
     }
@@ -188,16 +187,25 @@ class Chain {
             this.addresses = config.addresses[index];
             this.abifiles = config.abifiles;
             this.methods = config.methods;
-            let [poolAbi, bTokenAbi, pTokenAbi, lTokenAbi] = await Promise.all([
+            let [poolAbi, bTokenAbi, pTokenAbi, lTokenAbi,v2bTokenAbi] = await Promise.all([
                 this._readjson(this.abifiles.pool),
                 this._readjson(this.abifiles.bToken),
                 this._readjson(this.abifiles.pToken),
-                this._readjson(this.abifiles.lToken)
+                this._readjson(this.abifiles.lToken),
+                this._readjson(this.abifiles.v2bToken)
             ]);
-            this.pool = new this.web3.eth.Contract(poolAbi, this.addresses.pool);
-            this.bToken = new this.web3.eth.Contract(bTokenAbi, this.addresses.bToken);
-            this.pToken = new this.web3.eth.Contract(pTokenAbi, this.addresses.pToken);
-            this.lToken = new this.web3.eth.Contract(lTokenAbi, this.addresses.lToken);
+            // this.pool = new this.web3.eth.Contract(poolAbi, this.addresses.pool);
+            let bAbi;
+            if(index == 3 || index == 4){
+                bAbi = v2bTokenAbi
+            }else{
+                bAbi = bTokenAbi
+            }
+            console.log(bAbi)
+            this.bToken = new this.web3.eth.Contract(bTokenAbi,this.addresses.bToken);
+            this.bDecimals = await this._call(this.bToken, 'decimals');
+            // this.pToken = new this.web3.eth.Contract(pTokenAbi, this.addresses.pToken);
+            // this.lToken = new this.web3.eth.Contract(lTokenAbi, this.addresses.lToken);
         } catch (err) {
             console.log(`Chain: _initializeContracts() error: ${err}`);
         }
