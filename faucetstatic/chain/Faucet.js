@@ -32,6 +32,7 @@ $(function () {
     $('#obtainU').on('click', addU);
     $('#obtainB').on('click', addB);
     $('#obtainH').on('click', addH);
+    $('#obtainAU').on('click',addAU)
    
     
     function addU() {
@@ -139,6 +140,27 @@ $(function () {
                     }
                     enableButton(btn)
                     alert('You  get 10000 BUSD')
+                }).catch(err => {
+                    enableButton(btn)
+                    console.log(err)
+                })
+            });
+        }
+    }
+    function addAU(){
+        let btn = $('#obtainAU')
+        disableButton(btn)
+        let id = 5;
+        if (address) {
+            contract.initialize(id).then(() => {
+                contract.mint(address, 1000).then(res => {
+                    console.log(res)
+                    if (!res.success) {
+                        enableButton(btn)
+                        return;
+                    }
+                    enableButton(btn)
+                    alert('You  get 1000 AUTO')
                 }).catch(err => {
                     enableButton(btn)
                     console.log(err)
