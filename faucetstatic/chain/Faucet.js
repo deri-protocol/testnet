@@ -28,11 +28,12 @@ $(function () {
         await contract._bindEvent()
     }
     $('#obtainBE').on('click', addBE);
-    $('#obtainBUV').on('click', addBUV2);
+    $('#obtainBUV').on('click',addBUV2);
+    $('#obtainAU').on('click',addAU);
     $('#obtainU').on('click', addU);
     $('#obtainB').on('click', addB);
     $('#obtainH').on('click', addH);
-    $('#obtainAU').on('click',addAU)
+    
    
     
     function addU() {
