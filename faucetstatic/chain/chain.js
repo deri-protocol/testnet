@@ -196,7 +196,7 @@ class Chain {
             ]);
             // this.pool = new this.web3.eth.Contract(poolAbi, this.addresses.pool);
             let bAbi;
-            if(index == 3 || index == 4){
+            if(index == 3 || index == 4 || index == 5){
                 bAbi = v2bTokenAbi
             }else{
                 bAbi = bTokenAbi
