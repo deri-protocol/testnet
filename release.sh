@@ -5,6 +5,7 @@ source ~/.bashrc
 yarn --nomap --cwd /Users/lihaidong/work/app.deri.finance build 
 cp -R /Users/lihaidong/work/app.deri.finance/build/* ./
 git checkout main
+git pull origin main
 git add .
 git commit -m 'release'
 git push origin main
