@@ -119,7 +119,7 @@ $(function () {
                         return;
                     }
                     enableButton(btn)
-                    alert('You  get 10 CAKE')
+                    alert('You  get 1000 CAKE')
                 }).catch(err => {
                     enableButton(btn)
                     console.log(err)
