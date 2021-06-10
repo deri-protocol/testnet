@@ -31,7 +31,7 @@ $(function () {
     $('#obtainBUV').on('click',addBUV2);
     $('#obtainAU').on('click',addAU);
     $('#obtainU').on('click', addU);
-    $('#obtainB').on('click', addB);
+    // $('#obtainB').on('click', addB);
     $('#obtainH').on('click', addH);
     
    
@@ -61,28 +61,28 @@ $(function () {
 
     }
     
-    function addB() {
-        let btn = $('#obtainB')
-        disableButton(btn)
-        let id = 1;
-        if (address) {
-            contract.initialize(id).then(() => {
-                contract.mint(address, 10000).then(res => {
-                    console.log(res)
-                    if (!res.success) {
-                        enableButton(btn)
-                        return;
-                    }
-                    enableButton(btn)
-                    alert('You  get 10000 BUSD')
-                }).catch(err => {
-                    enableButton(btn)
-                    console.log(err)
-                })
-            });
-        }
+    // function addB() {
+    //     let btn = $('#obtainB')
+    //     disableButton(btn)
+    //     let id = 1;
+    //     if (address) {
+    //         contract.initialize(id).then(() => {
+    //             contract.mint(address, 10000).then(res => {
+    //                 console.log(res)
+    //                 if (!res.success) {
+    //                     enableButton(btn)
+    //                     return;
+    //                 }
+    //                 enableButton(btn)
+    //                 alert('You  get 10000 BUSD')
+    //             }).catch(err => {
+    //                 enableButton(btn)
+    //                 console.log(err)
+    //             })
+    //         });
+    //     }
 
-    }
+    // }
     
     function addH() {
         let btn = $('#obtainH')
@@ -112,14 +112,14 @@ $(function () {
         let id = 4;
         if (address) {
             contract.initialize(id).then(() => {
-                contract.mint(address, 10).then(res => {
+                contract.mint(address, 1000).then(res => {
                     console.log(res)
                     if (!res.success) {
                         enableButton(btn)
                         return;
                     }
                     enableButton(btn)
-                    alert('You  get 10 BETH')
+                    alert('You  get 10 CAKE')
                 }).catch(err => {
                     enableButton(btn)
                     console.log(err)
