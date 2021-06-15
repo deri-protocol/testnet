@@ -37,6 +37,12 @@
             "bToken": "0xd2F37BADdB702FF778aA038C63b7068054d93508",
             "pToken": "0xeBA1c76F7A773B8210130f068798839F84392241",
             "lToken": "0x61162b0c9665Ce27a53b59E79C1B7A929cc3bB57"
+        },
+        {
+            "pool": "0x35a85396e7A8a9E85170fbb589ce085abcAd8266",
+            "bToken": "0x1BD7B233B054AD4D1FBb767eEa628f28fdE314c6",
+            "pToken": "0x3495f770eC0dc8701d2b89454047A8521306E070",
+            "lToken": "0xeFCbBF65100FC2C2b96E92c9AbFfeC384177943e"
         }
 
         
