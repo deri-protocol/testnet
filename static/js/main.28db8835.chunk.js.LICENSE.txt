@@ -1,0 +1,1 @@
+//!this.poolAddress && console.log('please do setAccount(poolAddress) first');
