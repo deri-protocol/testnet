@@ -30,11 +30,8 @@ $(function () {
     $('#obtainBE').on('click', addBE);
     $('#obtainBUV').on('click',addBUV2);
     $('#obtainBUOption').on('click',addBUOption);
-    $('#obtainAU').on('click',addAU);
-    $('#obtainU').on('click', addU);
     $('#obtainMATICU').on('click', addMATICU);
     // $('#obtainB').on('click', addB);
-    $('#obtainH').on('click', addH);
     
    
     
