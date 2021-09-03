@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.558" height="16.311" viewBox="0 0 18.558 16.311">
+  <g id="Danger" transform="translate(0 -31)">
+    <g id="组_76" data-name="组 76" transform="translate(0 31)">
+      <path id="路径_12" data-name="路径 12" d="M16.927,47.311H1.631a1.631,1.631,0,0,1-1.41-2.452L7.87,31.809a1.631,1.631,0,0,1,2.819,0l7.648,13.048a1.631,1.631,0,0,1-1.41,2.452ZM9.279,32.087a.547.547,0,0,0-.47.271L1.16,45.407a.534.534,0,0,0-.073.272.544.544,0,0,0,.544.544h15.3a.544.544,0,0,0,.544-.544.535.535,0,0,0-.073-.272L9.75,32.359a.547.547,0,0,0-.471-.272Z" transform="translate(0 -31)" fill="#aaa"/>
+    </g>
+    <g id="组_77" data-name="组 77" transform="translate(8.735 35.35)">
+      <path id="路径_13" data-name="路径 13" d="M241.544,157.524a.544.544,0,0,1-.544-.544v-5.437a.544.544,0,1,1,1.087,0v5.437A.544.544,0,0,1,241.544,157.524Z" transform="translate(-241 -151)" fill="#aaa"/>
+    </g>
+    <g id="组_78" data-name="组 78" transform="translate(8.772 42.925)">
+      <ellipse id="椭圆_8" data-name="椭圆 8" cx="0.498" cy="0.598" rx="0.498" ry="0.598" transform="translate(0 0)" fill="#aaa"/>
+    </g>
+  </g>
+</svg>
