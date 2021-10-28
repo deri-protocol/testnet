@@ -1,0 +1,2 @@
+(this["webpackJsonpapp.deri.finance"]=this["webpackJsonpapp.deri.finance"]||[]).push([[57],{1341:function(n,a,t){},1389:function(n,a,t){"use strict";t.r(a),t.d(a,"default",(function(){return c}));var e=t(1029),i=(t(1341),t(20));function c(n){var a=n.lang;return Object(i.jsx)(e.a,{lang:a})}}}]);
+//# sourceMappingURL=57.6eb89385.chunk.js.map
