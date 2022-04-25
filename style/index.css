@@ -1,4 +1,4 @@
-.loading {
+.loading-banner {
   position: absolute;
   top: 50%;
   transform: translate(-50%,-50%);
@@ -6,12 +6,12 @@
 }
 
 @media only screen and (max-width: 375px)  {
-  .loading {
+  .loading-banner {
     width: 100px;
   }
 }
 @media only screen and (max-width: 760px)  {
-  .loading {
+  .loading-banner {
     width: 100px;
   }
 }
