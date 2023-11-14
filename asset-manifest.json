@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8dec8d5.css",
-    "main.js": "/static/js/main.3ee11242.js",
+    "main.css": "/static/css/main.2acbcec9.css",
+    "main.js": "/static/js/main.c41792a7.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
     "static/media/home-bg.png": "/static/media/home-bg.f2affc30b5fcfcf5354f.png",
@@ -104,6 +104,7 @@
     "static/media/DOT.svg": "/static/media/DOT.d718b0bf1f4f5728f2bf.svg",
     "static/media/DOT copy.svg": "/static/media/DOT copy.ed1183d9de7018edc023.svg",
     "static/media/rebate-warn.svg": "/static/media/rebate-warn.bf718a2f493b2fd211b9.svg",
+    "static/media/step-three.svg": "/static/media/step-three.0a5b387dbbb2f77f83d2.svg",
     "static/media/SOL.svg": "/static/media/SOL.f7b923e20b4ebaefc1b5.svg",
     "static/media/AVAX.svg": "/static/media/AVAX.f5dc1c5a3d6e2a28ab1e.svg",
     "static/media/warn-remove-hint.svg": "/static/media/warn-remove-hint.10d6888120ff676f46b9.svg",
@@ -221,11 +222,10 @@
     "static/media/down-price.svg": "/static/media/down-price.b49ec70966b0e7dc31e0.svg",
     "static/media/target.svg": "/static/media/target.fa48eeda6186426b13c7.svg",
     "static/media/back.svg": "/static/media/back.ec550831b3562fbc4f37.svg",
-    "static/media/menu.svg": "/static/media/menu.5b5e698afeec5bfcd0de.svg",
-    "static/media/setp-three.svg": "/static/media/setp-three.d25d721501efb73a71da.svg"
+    "static/media/menu.svg": "/static/media/menu.5b5e698afeec5bfcd0de.svg"
   },
   "entrypoints": [
-    "static/css/main.e8dec8d5.css",
-    "static/js/main.3ee11242.js"
+    "static/css/main.2acbcec9.css",
+    "static/js/main.c41792a7.js"
   ]
 }
