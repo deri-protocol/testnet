@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2acbcec9.css",
-    "main.js": "/static/js/main.c41792a7.js",
+    "main.js": "/static/js/main.5ed36f28.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
     "static/media/home-bg.png": "/static/media/home-bg.f2affc30b5fcfcf5354f.png",
@@ -165,6 +165,7 @@
     "static/media/collateral.svg": "/static/media/collateral.6880051c301b92182179.svg",
     "static/media/remove-icon.svg": "/static/media/remove-icon.1feb361fd355bb2c321e.svg",
     "static/media/argent.svg": "/static/media/argent.2072722af24bb46c8126.svg",
+    "static/media/linea-chain-logo.svg": "/static/media/linea-chain-logo.d08cd13df85da102c708.svg",
     "static/media/trade-warn.svg": "/static/media/trade-warn.eded38e11a0c864b68e2.svg",
     "static/media/USDT.svg": "/static/media/USDT.6db8325183760d906430.svg",
     "static/media/switch.svg": "/static/media/switch.010f31bed1780ec3607b.svg",
@@ -226,6 +227,6 @@
   },
   "entrypoints": [
     "static/css/main.2acbcec9.css",
-    "static/js/main.c41792a7.js"
+    "static/js/main.5ed36f28.js"
   ]
 }
