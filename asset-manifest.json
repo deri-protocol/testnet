@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf5678ae.css",
-    "main.js": "/static/js/main.5506aae9.js",
+    "main.css": "/static/css/main.cf1d675a.css",
+    "main.js": "/static/js/main.a52511f8.js",
     "static/js/199.746542c3.chunk.js": "/static/js/199.746542c3.chunk.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
@@ -109,7 +109,7 @@
     "static/media/TON.svg": "/static/media/TON.6cefad621eb41e5b5035.svg",
     "static/media/share-twitter.svg": "/static/media/share-twitter.aa3143ac97ace13df84684d86bd85b14.svg",
     "static/media/pancake.svg": "/static/media/pancake.e177218b034fd29995cb6b5c2b595d11.svg",
-    "static/media/no-data-icon.svg": "/static/media/no-data-icon.a143531c53c651aed10e.svg",
+    "static/media/no-data-icon.svg": "/static/media/no-data-icon.f3a2cb6ff8a8fbc87cec.svg",
     "static/media/FITFI.svg": "/static/media/FITFI.1eebaa711f6eb35bab01.svg",
     "static/media/warning-blue.svg": "/static/media/warning-blue.2a96f6e6d968a9c98be8.svg",
     "static/media/governance-discussion.svg": "/static/media/governance-discussion.4eb7efd0e108c6b98b9047a56e0b0f0e.svg",
@@ -304,7 +304,7 @@
     "static/media/menu.svg": "/static/media/menu.aa4c2f8f458a26a2ed7e.svg"
   },
   "entrypoints": [
-    "static/css/main.cf5678ae.css",
-    "static/js/main.5506aae9.js"
+    "static/css/main.cf1d675a.css",
+    "static/js/main.a52511f8.js"
   ]
 }
