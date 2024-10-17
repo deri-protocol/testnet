@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf1d675a.css",
-    "main.js": "/static/js/main.18f6075d.js",
+    "main.css": "/static/css/main.64b60f08.css",
+    "main.js": "/static/js/main.7e9f0a67.js",
     "static/js/199.746542c3.chunk.js": "/static/js/199.746542c3.chunk.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
@@ -178,6 +178,7 @@
     "static/media/card-bg.svg": "/static/media/card-bg.f19bd774576df31fa572.svg",
     "static/media/go-recruiter.svg": "/static/media/go-recruiter.b91be8ac087b886f2114.svg",
     "static/media/copied-logo.svg": "/static/media/copied-logo.72874f27a1b0045fadbe.svg",
+    "static/media/sonic-chain-logo.svg": "/static/media/sonic-chain-logo.f415bf3062c34f8650e7.svg",
     "static/media/pool-mobile.svg": "/static/media/pool-mobile.239ec2af7fb2d02268c0.svg",
     "static/media/pool-card-background.svg": "/static/media/pool-card-background.134660c96018cdfdfa2e.svg",
     "static/media/wallet-hover-bg.svg": "/static/media/wallet-hover-bg.cabf57a738fde07156f0.svg",
@@ -304,7 +305,7 @@
     "static/media/menu.svg": "/static/media/menu.aa4c2f8f458a26a2ed7e.svg"
   },
   "entrypoints": [
-    "static/css/main.cf1d675a.css",
-    "static/js/main.18f6075d.js"
+    "static/css/main.64b60f08.css",
+    "static/js/main.7e9f0a67.js"
   ]
 }
