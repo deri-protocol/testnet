@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8ff650d3.css",
-    "main.js": "/static/js/main.d031ebe5.js",
+    "main.js": "/static/js/main.c82d93b4.js",
     "static/js/199.746542c3.chunk.js": "/static/js/199.746542c3.chunk.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
@@ -123,6 +123,7 @@
     "static/media/governance.svg": "/static/media/governance.e32bdd33dd535a4a3505044374c086ec.svg",
     "static/media/rebate-total-users.svg": "/static/media/rebate-total-users.079a837e9d16613b7e5c.svg",
     "static/media/REZ.svg": "/static/media/REZ.c1f6d69ec0c83725e4eb.svg",
+    "static/media/download-icon.svg": "/static/media/download-icon.9f736d3939f53e19aeee.svg",
     "static/media/goMainnet.svg": "/static/media/goMainnet.87342352b57da1af291e.svg",
     "static/media/BTC.svg": "/static/media/BTC.db6e15a8db8b35fff7ad.svg",
     "static/media/BTCB.svg": "/static/media/BTCB.b3f0e9330037ffc44c6a.svg",
@@ -307,6 +308,6 @@
   },
   "entrypoints": [
     "static/css/main.8ff650d3.css",
-    "static/js/main.d031ebe5.js"
+    "static/js/main.c82d93b4.js"
   ]
 }
