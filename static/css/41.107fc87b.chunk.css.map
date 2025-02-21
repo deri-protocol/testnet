@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/pages/Retired/retired.less"],"names":[],"mappings":"AAAA,cACE,YAAA,CACA,+BAAA,CACA,YAAA,CACA,iBAAA,CACA,kBACF","file":"41.107fc87b.chunk.css","sourcesContent":[".retired-hint {\n  height: 152px;\n  border-bottom: 1px solid #203b60;\n  display: flex;\n  padding-left: 48px;\n  align-items: center;\n}"]}
