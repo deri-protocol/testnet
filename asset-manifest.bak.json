@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fbac4cfb.css",
-    "main.js": "/static/js/main.4ae889c9.js",
+    "main.js": "/static/js/main.8df723a9.js",
     "static/js/199.746542c3.chunk.js": "/static/js/199.746542c3.chunk.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
@@ -109,6 +109,7 @@
     "static/media/TON.svg": "/static/media/TON.c12d9238a7ba1e395187.svg",
     "static/media/share-twitter.svg": "/static/media/share-twitter.88028a1a833f255ab7e72830a2d0deac.svg",
     "static/media/pancake.svg": "/static/media/pancake.2c13a9f350a4df40b904e4bf353714cd.svg",
+    "static/media/supra-chain-logo.svg": "/static/media/supra-chain-logo.ac81ee1a670fc436c98c.svg",
     "static/media/no-data-icon.svg": "/static/media/no-data-icon.a143531c53c651aed10e.svg",
     "static/media/FITFI.svg": "/static/media/FITFI.f0353c4d841db5d55983.svg",
     "static/media/warning-blue.svg": "/static/media/warning-blue.4687b9ad2afd6afc50b5.svg",
@@ -217,6 +218,7 @@
     "static/media/email.svg": "/static/media/email.e927b5363753acd9627f.svg",
     "static/media/reset-gamma-codition.svg": "/static/media/reset-gamma-codition.cefc251d2740a8f83913.svg",
     "static/media/no-data.svg": "/static/media/no-data.6ecbcdf7b864cfea1316.svg",
+    "static/media/starkey.svg": "/static/media/starkey.e481d6a941befe4ba878.svg",
     "static/media/twitter-dark.svg": "/static/media/twitter-dark.50acb0271e7dbb9c4279.svg",
     "static/media/close-step.svg": "/static/media/close-step.8502440d0e392aa2db11.svg",
     "static/media/copy.svg": "/static/media/copy.0c074039861265c43df4.svg",
@@ -310,6 +312,6 @@
   },
   "entrypoints": [
     "static/css/main.fbac4cfb.css",
-    "static/js/main.4ae889c9.js"
+    "static/js/main.8df723a9.js"
   ]
 }
