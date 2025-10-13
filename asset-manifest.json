@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5f32d17.css",
-    "main.js": "/static/js/main.d9559f39.js",
+    "main.css": "/static/css/main.3ee319f8.css",
+    "main.js": "/static/js/main.3b2b0c2e.js",
     "static/js/199.746542c3.chunk.js": "/static/js/199.746542c3.chunk.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
@@ -225,6 +225,7 @@
     "static/media/close-kline.svg": "/static/media/close-kline.c0a63f2b338cdaca504b.svg",
     "static/media/open-step.svg": "/static/media/open-step.0404c3beae2e583c2c4b.svg",
     "static/media/succeed.svg": "/static/media/succeed.1057d4b2662b4ba280dafecdfbbe1c42.svg",
+    "static/media/LINEA.svg": "/static/media/LINEA.e0c7e7424046eeac0d3c.svg",
     "static/media/copy-code.svg": "/static/media/copy-code.24f4144db4be98e4d5c1.svg",
     "static/media/linea-chain-logo.svg": "/static/media/linea-chain-logo.e0c7e7424046eeac0d3c.svg",
     "static/media/XRP.svg": "/static/media/XRP.ac1e04f17611364e44ea.svg",
@@ -311,7 +312,7 @@
     "static/media/menu.svg": "/static/media/menu.5b5e698afeec5bfcd0de.svg"
   },
   "entrypoints": [
-    "static/css/main.d5f32d17.css",
-    "static/js/main.d9559f39.js"
+    "static/css/main.3ee319f8.css",
+    "static/js/main.3b2b0c2e.js"
   ]
 }
