@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bc6982f6.css",
-    "main.js": "/static/js/main.7eaf1bd4.js",
+    "main.js": "/static/js/main.c981737f.js",
     "static/js/199.746542c3.chunk.js": "/static/js/199.746542c3.chunk.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
@@ -301,11 +301,13 @@
     "static/media/p-arrow-right-disabled.svg": "/static/media/p-arrow-right-disabled.9b5d2fe8b15a4868e1ed.svg",
     "static/media/p-arrow-right.svg": "/static/media/p-arrow-right.7a48719645afcf88ff30.svg",
     "static/media/p-arrow-left.svg": "/static/media/p-arrow-left.5c981930a474c9d164c1.svg",
+    "static/media/back-text.svg": "/static/media/back-text.247e35d68beb667a3e63.svg",
     "static/media/remove-gray.svg": "/static/media/remove-gray.dfe4603ea3fc25fe1d5e.svg",
     "static/media/buy-long-gray.svg": "/static/media/buy-long-gray.2e198f790c442d157a81.svg",
     "static/media/close-modal-icon.svg": "/static/media/close-modal-icon.0c923558783d636688a3e8d18ad2a971.svg",
     "static/media/buy-long.svg": "/static/media/buy-long.bbd71143f891427958d9.svg",
     "static/media/remove.svg": "/static/media/remove.d851877ecbc5b7d6fdac.svg",
+    "static/media/next.svg": "/static/media/next.c03fc9c523ba0f5906bf.svg",
     "static/media/success.svg": "/static/media/success.07db2aecad0000c2bebe.svg",
     "static/media/message-error.svg": "/static/media/message-error.c163b07f3857d92d41ad.svg",
     "static/media/toast-error.svg": "/static/media/toast-error.683d8a0e334f24683bbf.svg",
@@ -333,6 +335,6 @@
   },
   "entrypoints": [
     "static/css/main.bc6982f6.css",
-    "static/js/main.7eaf1bd4.js"
+    "static/js/main.c981737f.js"
   ]
 }
