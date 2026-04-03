@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.654f2c2a.css",
-    "main.js": "/static/js/main.1b7eb134.js",
+    "main.js": "/static/js/main.fb204ad7.js",
     "static/js/199.746542c3.chunk.js": "/static/js/199.746542c3.chunk.js",
     "static/js/42.98b99fa0.chunk.js": "/static/js/42.98b99fa0.chunk.js",
     "static/js/27.57be17c9.chunk.js": "/static/js/27.57be17c9.chunk.js",
@@ -42,7 +42,6 @@
     "static/media/CHAMP 3.png": "/static/media/CHAMP 3.f56a015690c48ae6705a.png",
     "static/media/PARTICIPANT 2.png": "/static/media/PARTICIPANT 2.f8d8c78d7ef7c2a35a22.png",
     "static/media/ROI 4.png": "/static/media/ROI 4.756129b889ed371846dd.png",
-    "static/media/bitget.svg": "/static/media/bitget.6e9ded52a87beb23a4e5.svg",
     "static/media/particle.svg": "/static/media/particle.e1ed0642b3d925fc5827.svg",
     "static/media/apple.svg": "/static/media/apple.676984e3f79c700334ff.svg",
     "static/media/LOSER 2.png": "/static/media/LOSER 2.9c727379e317e0a8cebe.png",
@@ -54,6 +53,7 @@
     "static/media/BarlowSemiCondensed-Regular.ttf": "/static/media/BarlowSemiCondensed-Regular.28bce4c43f58ea98f789.ttf",
     "static/media/DOGE.svg": "/static/media/DOGE.76ddc0955594a1bde772.svg",
     "static/media/chain-bg-two.png": "/static/media/chain-bg-two.52a1f7ed182ee88e9bb2.png",
+    "static/media/rabby.svg": "/static/media/rabby.2303131de835e799c898.svg",
     "static/media/TUSD.svg": "/static/media/TUSD.92c5d7673c59320430cb.svg",
     "static/media/work-bg.svg": "/static/media/work-bg.87d1fd625ce4a62529fc81154acbad87.svg",
     "static/media/daniel.jpg": "/static/media/daniel.66afa0a1384d6321e46e.jpg",
@@ -81,11 +81,13 @@
     "static/media/task-trading.svg": "/static/media/task-trading.c867abbdd723cce8e93f.svg",
     "static/media/celestia.svg": "/static/media/celestia.0983b8ef8e1668ae8c8d2467b5e30a27.svg",
     "static/media/coinbase.svg": "/static/media/coinbase.cfc2c880396ac9dfa60f.svg",
+    "static/media/bitget.svg": "/static/media/bitget.b826f1ea5114100af273.svg",
     "static/media/total-rewards-m.png": "/static/media/total-rewards-m.da9694bf55a4a3e1c6b1.png",
     "static/media/total-fee-m.png": "/static/media/total-fee-m.91d6ad13e8d731bcb224.png",
     "static/media/total-users-m.png": "/static/media/total-users-m.1aa9b1b73e595419a757.png",
     "static/media/ADA.svg": "/static/media/ADA.16778aad2deaccebbc4f.svg",
     "static/media/ETH.svg": "/static/media/ETH.017d28018b651588b1af7bc063246773.svg",
+    "static/media/trust.svg": "/static/media/trust.aadfea6e01e2507f5123.svg",
     "static/media/task-wallet.svg": "/static/media/task-wallet.c63a87c8ea55eb55e249.svg",
     "static/media/WIF.svg": "/static/media/WIF.0be4852fb4e1e30206b2.svg",
     "static/media/arbitrum.svg": "/static/media/arbitrum.ad23fcdae1087a57c85fdafcc61ad476.svg",
@@ -335,6 +337,6 @@
   },
   "entrypoints": [
     "static/css/main.654f2c2a.css",
-    "static/js/main.1b7eb134.js"
+    "static/js/main.fb204ad7.js"
   ]
 }
